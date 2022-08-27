@@ -8,6 +8,10 @@
 ## Usage
 
 ```javascript
+npm install
+```
+
+```javascript
 npm run build
 npm run build:dev
 npm run build:prod

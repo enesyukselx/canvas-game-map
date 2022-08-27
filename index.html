@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Klansavasları Map Work</title>
+        <link rel="stylesheet" href="assets/styles/style.css" />
+        <script src="assets/scripts/app.js" defer type="module"></script>
+    </head>
+    <body>
+        <div class="top-menu">
+            <h2>Tribalwars Map</h2>
+        </div>
+        <div class="main">
+            <div id="popup-map">
+                <div id="popup-map-content"></div>
+            </div>
+            <div class="maps-content">
+                <h2>Maps</h2>
+                <div class="map-blocks">
+                    <div class="left">
+                        <div id="main-map"></div>
+                    </div>
+                    <div class="right">
+                        <div id="mini-map"></div>
+                        <div class="see-all-map">
+                            <a href="#" id="open-popup-map"
+                                >» Dünya Haritasını Göster</a
+                            >
+                        </div>
+                        <div class="cords">
+                            <div class="title">
+                                <span>haritayı ortala</span>
+                            </div>
+                            <div class="inputs">
+                                <label for="x-cord">x: </label>
+                                <input type="text" id="x-cord" value="0" />
+                                <label for="y-cord">y: </label>
+                                <input type="text" id="y-cord" value="0" />
+                                <button id="go-cords">go</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <ul>
+                <li><a href="#">Main Page</a></li>
+                <li><a href="#">Forum</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Logout</a></li>
+                <li><a href="#">enesyuksel.com</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
